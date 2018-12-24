@@ -19,10 +19,6 @@
     cx="136"
     cy="136"
     r="100" />
-  
-    
-  
-    
       <g transform='rotate(-12.857142857142918 136 136)'>
         <circle
           transform='translate(5.384615384615388 0)'
@@ -31,9 +27,6 @@
           cy="136"
           r="12" />
       </g>
-    
-  
-    
       <g transform='rotate(-18.00000000000007 136 136)'>
         <circle
           transform='translate(1.5686274509803955 0)'
@@ -42,9 +35,6 @@
           cy="136"
           r="12" />
       </g>
-    
-  
-    
       <g transform='rotate(260.31496062992125 136 136)'>
         <circle
           transform='translate(79.68627450980392 0)'
@@ -53,9 +43,6 @@
           cy="136"
           r="12" />
       </g>
-    
-  
-    
       <g transform='rotate(-60.588235294117645 136 136)'>
         <circle
           transform='translate(64.0 0)'
@@ -64,9 +51,6 @@
           cy="136"
           r="12" />
       </g>
-    
-  
-    
       <g transform='rotate(-41.3684210526316 136 136)'>
         <circle
           transform='translate(30.039525691699605 0)'
@@ -75,9 +59,6 @@
           cy="136"
           r="12" />
       </g>
-    
-  
-    
       <g transform='rotate(-4.285714285714306 136 136)'>
         <circle
           transform='translate(36.57142857142857 0)'
@@ -86,9 +67,6 @@
           cy="136"
           r="12" />
       </g>
-    
-  
-    
       <g transform='rotate(95.35714285714289 136 136)'>
         <circle
           transform='translate(56.23430962343096 0)'
@@ -97,9 +75,6 @@
           cy="136"
           r="12" />
       </g>
-    
-  
-    
       <g transform='rotate(181.0344827586207 136 136)'>
         <circle
           transform='translate(44.83091787439613 0)'
@@ -108,6 +83,4 @@
           cy="136"
           r="12" />
       </g>
-    
-  
 </svg>

@@ -11,7 +11,11 @@ PREVIEWS_DIR = './previews'
 README_TEMPLATE = 'README-template.md'
 
 template_loader = jinja2.FileSystemLoader(searchpath='./')
-env = jinja2.Environment(loader=template_loader)
+env = jinja2.Environment(
+    loader=template_loader,
+    trim_blocks=True,
+    lstrip_blocks=True
+)
 TEMPLATE_FILE = 'preview-template.svg'
 template = env.get_template(TEMPLATE_FILE)
 

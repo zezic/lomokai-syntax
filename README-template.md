@@ -20,16 +20,22 @@ A scheme switching menu is available in theme settings, also you can search for 
 <table>
   <tbody>
   {% for group in themes %}
-  <tr>
-    {% for theme in group %}
-      {% if loop.index == 1 %}<td style='padding: 0 0 10px; border: none;'>{% endif %}
-      {% if loop.index == 2 %}<td style='padding: 0 40px 10px; border: none;'>{% endif %}
-      {% if loop.index == 3 %}<td style='padding: 0 0 10px; border: none;'>{% endif %}
-          <p>![l](previews/{{ theme.slug }}.svg)</p>
-          <p style='text-align: center;'>{{ theme.name }}</p>
-        </td>
-    {% endfor %}
-  </tr>
+    <tr>
+      {% for theme in group %}
+      {% if loop.index == 1 %}
+      <td style='padding: 0 0 10px; border: none;'>
+      {% endif %}
+      {% if loop.index == 2 %}
+      <td style='padding: 0 40px 10px; border: none;'>
+      {% endif %}
+      {% if loop.index == 3 %}
+      <td style='padding: 0 0 10px; border: none;'>
+      {% endif %}
+        <p>![l](previews/{{ theme.slug }}.svg)</p>
+        <p style='text-align: center;'>{{ theme.name }}</p>
+      </td>
+      {% endfor %}
+    </tr>
   {% endfor %}
   </tbody>
 </table>
