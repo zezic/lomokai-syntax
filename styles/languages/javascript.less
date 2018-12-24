@@ -1,0 +1,72 @@
+.syntax--js {
+    &.syntax--support {
+        &.syntax--variable {
+            &.syntax--property {
+                color: @very-light-gray;
+            }
+            &.syntax--property.syntax--dom {
+                color: @cyan;
+            }
+        }
+    }
+
+    &.syntax--variable {
+        &.syntax--property {
+            color: @very-light-gray;
+        }
+        &.syntax--other.syntax--object {
+            color: @very-light-gray;
+        }
+        &.syntax--language {
+            color: lighten(@light-gray, 30%);
+            font-style: italic;
+        }
+    }
+
+    &.syntax--string.syntax--quoted.syntax--template {
+      .syntax--other.syntax--object.syntax--property {
+          color: @green;
+      }
+      & > .syntax--punctuation {
+          &.syntax--begin,
+          &.syntax--end {
+              color: @red;
+          }
+      }
+      & > .syntax--embedded.syntax--source {
+          color: @very-light-gray;
+      }
+    }
+
+    &.syntax--delimiter.syntax--object.syntax--comma,
+    &.syntax--brace.syntax--curly {
+        .syntax--comment & {
+            color: @syntax-comment-color;
+        }
+    }
+
+    &.syntax--export .syntax--variable.syntax--default {
+        color: @purple;
+    }
+
+    &.syntax--arrow {
+        color: @red;
+    }
+
+    &.syntax--punctuation {
+        &.syntax--modules {
+            &.syntax--begin,
+            &.syntax--end {
+                color: @syntax-punctuation-color;
+            }
+        }
+        &.syntax--definition {
+            &.syntax--curly {
+                &.syntax--begin,
+                &.syntax--end {
+                    color: @syntax-punctuation-color;
+                }
+            }
+        }
+    }
+}

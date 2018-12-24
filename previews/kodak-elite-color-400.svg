@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+  width="272"
+  height="272"
+  viewBox="0 0 272 272"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rect
+    y="0"
+    x="0"
+    height="272"
+    width="272"
+    style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;"
+  />
+  <circle
+    style="opacity: 1; fill: #1b1916; fill-opacity: 1; stroke: #ffffff; stroke-opacity: 0; stroke-width: 1.5px;"
+    cx="136"
+    cy="136"
+    r="100" />
+  
+    
+  
+    
+      <g transform='rotate(-48.00000000000003 136 136)'>
+        <circle
+          transform='translate(8.333333333333327 0)'
+          style="opacity: 1; fill: #605d56; fill-opacity: 1; stroke: none;"
+          cx="136"
+          cy="136"
+          r="12" />
+      </g>
+    
+  
+    
+      <g transform='rotate(-33.999999999999986 136 136)'>
+        <circle
+          transform='translate(4.724409448818899 0)'
+          style="opacity: 1; fill: #fefdef; fill-opacity: 1; stroke: none;"
+          cx="136"
+          cy="136"
+          r="12" />
+      </g>
+    
+  
+    
+      <g transform='rotate(252.52173913043475 136 136)'>
+        <circle
+          transform='translate(80.0 0)'
+          style="opacity: 1; fill: #e60043; fill-opacity: 1; stroke: none;"
+          cx="136"
+          cy="136"
+          r="12" />
+      </g>
+    
+  
+    
+      <g transform='rotate(-78.05194805194806 136 136)'>
+        <circle
+          transform='translate(73.33333333333333 0)'
+          style="opacity: 1; fill: #fc4315; fill-opacity: 1; stroke: none;"
+          cx="136"
+          cy="136"
+          r="12" />
+      </g>
+    
+  
+    
+      <g transform='rotate(-46.93548387096776 136 136)'>
+        <circle
+          transform='translate(42.03389830508475 0)'
+          style="opacity: 1; fill: #ecc970; fill-opacity: 1; stroke: none;"
+          cx="136"
+          cy="136"
+          r="12" />
+      </g>
+    
+  
+    
+      <g transform='rotate(-26.184971098265905 136 136)'>
+        <circle
+          transform='translate(65.28301886792453 0)'
+          style="opacity: 1; fill: #c9d427; fill-opacity: 1; stroke: none;"
+          cx="136"
+          cy="136"
+          r="12" />
+      </g>
+    
+  
+    
+      <g transform='rotate(91.28571428571428 136 136)'>
+        <circle
+          transform='translate(49.777777777777786 0)'
+          style="opacity: 1; fill: #55dee1; fill-opacity: 1; stroke: none;"
+          cx="136"
+          cy="136"
+          r="12" />
+      </g>
+    
+  
+    
+      <g transform='rotate(130.00000000000003 136 136)'>
+        <circle
+          transform='translate(41.08108108108108 0)'
+          style="opacity: 1; fill: #6c92de; fill-opacity: 1; stroke: none;"
+          cx="136"
+          cy="136"
+          r="12" />
+      </g>
+    
+  
+</svg>

@@ -1,0 +1,99 @@
+.syntax--css {
+    &.syntax--property-name {
+        color: @syntax-text-color;
+    }
+    &.syntax--property-value {
+        &.syntax--constant {
+            color: @cyan;
+        }
+    }
+
+    .syntax--entity {
+        &.syntax--other {
+            &.syntax--class {
+                color: @green;
+                font-style: italic;
+            }
+            &.syntax--id {
+                color: @orange;
+                font-style: italic;
+            }
+        }
+    }
+    &.syntax--support {
+        &.syntax--constant {
+            &.syntax--property-value {
+                color: @cyan;
+            }
+        }
+    }
+
+    .syntax--support {
+        &.syntax--constant {
+            color: @cyan;
+        }
+
+        &.syntax--property-name {
+            color: @syntax-text-color;
+        }
+    }
+
+    .syntax--keyword {
+        &.syntax--other {
+            &.syntax--unit {
+                color: @red;
+            }
+        }
+    }
+
+    .syntax--entity {
+        &.syntax--tag {
+            color: @red;
+        }
+
+        &.syntax--id {
+            color: @purple;
+        }
+    }
+
+    .syntax--punctuation {
+        &.syntax--delimiter {
+            color: @cyan;
+
+            + .syntax--constant.syntax--numeric:not(.syntax--color) {
+                color: @orange;
+            }
+        }
+    }
+}
+
+.syntax--sass {
+    .syntax--variable-declaration {
+        &.syntax--mixin {
+            & > .syntax--variable {
+                color: @green;
+            }
+        }
+    }
+
+    .syntax--include {
+        & > .syntax--variable {
+            color: @green;
+        }
+    }
+
+    .syntax--variable-usage {
+        .syntax--variable {
+            color: @orange;
+            font-style: italic;
+        }
+    }
+
+    &.syntax--punctuation {
+        &.syntax--definition {
+            &.syntax--entity {
+                color: @syntax-punctuation-color;
+            }
+        }
+    }
+}

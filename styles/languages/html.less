@@ -1,0 +1,38 @@
+.syntax--html, .syntax--jsx {
+    .syntax--meta {
+        &.syntax--tag {
+            &.syntax--doctype {
+                color: @purple;
+            }
+        }
+        &.syntax--id {
+            color: @orange;
+        }
+        &.syntax--brace {
+            &.syntax--curly {
+                color: @syntax-punctuation-color;
+            }
+        }
+    }
+
+    .syntax--punctuation {
+        &.syntax--key-value,
+        &.syntax--tag {
+            color: @syntax-punctuation-color;
+        }
+    }
+
+    .syntax--entity {
+        &.syntax--attribute-name {
+            color: @cyan;
+            font-style: italic;
+        }
+    }
+}
+
+.syntax--pug {
+    .syntax--constant {
+        color: @green;
+        font-style: italic;
+    }
+}

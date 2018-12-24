@@ -1,0 +1,35 @@
+{
+  "name": "lomokai-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A Monokai-based syntax theme with lomographic variations.",
+  "keywords": [
+    "syntax",
+    "theme",
+    "monokai",
+    "lomography",
+    "filters",
+    "haldclut",
+    "clut",
+    "lut",
+    "polaroid",
+    "instagram",
+    "kodak",
+    "agfa",
+    "fuji"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zezic/lomokai-syntax.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.33.0 <2.0.0"
+  },
+  "main": "./lib/lomokai",
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0"
+  },
+  "homepage": "https://github.com/zezic/lomokai-syntax#readme"
+}
