@@ -22,197 +22,197 @@ A scheme switching menu is available in theme settings, also you can search for 
     <tr>
       <td>
         <p><img src='previews/lomography-x-pro-slide-200.svg'></p>
-        <p style='text-align: center;'>Lomography X-Pro Slide 200</p>
+        <p>Lomography X-Pro Slide 200</p>
       </td>
       <td>
         <p><img src='previews/agfa-precisa-100.svg'></p>
-        <p style='text-align: center;'>Agfa Precisa 100</p>
+        <p>Agfa Precisa 100</p>
       </td>
       <td>
         <p><img src='previews/agfa-vista-200.svg'></p>
-        <p style='text-align: center;'>Agfa Vista 200</p>
+        <p>Agfa Vista 200</p>
       </td>
     </tr>
     <tr>
       <td>
         <p><img src='previews/cp-crisp-winter.svg'></p>
-        <p style='text-align: center;'>CP Crisp Winter</p>
+        <p>CP Crisp Winter</p>
       </td>
       <td>
         <p><img src='previews/cp-anime.svg'></p>
-        <p style='text-align: center;'>CP Anime</p>
+        <p>CP Anime</p>
       </td>
       <td>
         <p><img src='previews/cp-teal-orange-1.svg'></p>
-        <p style='text-align: center;'>CP Teal Orange 1</p>
+        <p>CP Teal Orange 1</p>
       </td>
     </tr>
     <tr>
       <td>
         <p><img src='previews/cp-futuristic-bleak-1.svg'></p>
-        <p style='text-align: center;'>CP Futuristic Bleak 1</p>
+        <p>CP Futuristic Bleak 1</p>
       </td>
       <td>
         <p><img src='previews/cp-drop-blues.svg'></p>
-        <p style='text-align: center;'>CP Drop Blues</p>
+        <p>CP Drop Blues</p>
       </td>
       <td>
         <p><img src='previews/cp-tension-green-4.svg'></p>
-        <p style='text-align: center;'>CP Tension Green 4</p>
+        <p>CP Tension Green 4</p>
       </td>
     </tr>
     <tr>
       <td>
         <p><img src='previews/cp-futuristic-bleak-4.svg'></p>
-        <p style='text-align: center;'>CP Futuristic Bleak 4</p>
+        <p>CP Futuristic Bleak 4</p>
       </td>
       <td>
         <p><img src='previews/cp-teal-orange-3.svg'></p>
-        <p style='text-align: center;'>CP Teal Orange 3</p>
+        <p>CP Teal Orange 3</p>
       </td>
       <td>
         <p><img src='previews/cp-candle-light.svg'></p>
-        <p style='text-align: center;'>CP Candle Light</p>
+        <p>CP Candle Light</p>
       </td>
     </tr>
     <tr>
       <td>
         <p><img src='previews/fuji-800z-2.svg'></p>
-        <p style='text-align: center;'>Fuji 800Z 2</p>
+        <p>Fuji 800Z 2</p>
       </td>
       <td>
         <p><img src='previews/fuji-provia-100f.svg'></p>
-        <p style='text-align: center;'>Fuji Provia 100F</p>
+        <p>Fuji Provia 100F</p>
       </td>
       <td>
         <p><img src='previews/fuji-astia-100f.svg'></p>
-        <p style='text-align: center;'>Fuji Astia 100F</p>
+        <p>Fuji Astia 100F</p>
       </td>
     </tr>
     <tr>
       <td>
         <p><img src='previews/fuji-superia-100-4-++.svg'></p>
-        <p style='text-align: center;'>Fuji Superia 100 4 ++</p>
+        <p>Fuji Superia 100 4 ++</p>
       </td>
       <td>
         <p><img src='previews/fuji-superia-x-tra-800.svg'></p>
-        <p style='text-align: center;'>Fuji Superia X-Tra 800</p>
+        <p>Fuji Superia X-Tra 800</p>
       </td>
       <td>
         <p><img src='previews/fuji-superia-400-3-+.svg'></p>
-        <p style='text-align: center;'>Fuji Superia 400 3 +</p>
+        <p>Fuji Superia 400 3 +</p>
       </td>
     </tr>
     <tr>
       <td>
         <p><img src='previews/fuji-superia-hg-1600.svg'></p>
-        <p style='text-align: center;'>Fuji Superia HG 1600</p>
+        <p>Fuji Superia HG 1600</p>
       </td>
       <td>
         <p><img src='previews/fuji-fp-100c-negative-3.svg'></p>
-        <p style='text-align: center;'>Fuji FP-100c Negative 3</p>
+        <p>Fuji FP-100c Negative 3</p>
       </td>
       <td>
         <p><img src='previews/fuji-sensia-100.svg'></p>
-        <p style='text-align: center;'>Fuji Sensia 100</p>
+        <p>Fuji Sensia 100</p>
       </td>
     </tr>
     <tr>
       <td>
         <p><img src='previews/fuji-fp-100c-negative-7-+++.svg'></p>
-        <p style='text-align: center;'>Fuji FP-100c Negative 7 +++</p>
+        <p>Fuji FP-100c Negative 7 +++</p>
       </td>
       <td>
         <p><img src='previews/fuji-superia-1600-3-+.svg'></p>
-        <p style='text-align: center;'>Fuji Superia 1600 3 +</p>
+        <p>Fuji Superia 1600 3 +</p>
       </td>
       <td>
         <p><img src='previews/fuji-fp-100c-negative-5-++.svg'></p>
-        <p style='text-align: center;'>Fuji FP-100c Negative 5 ++</p>
+        <p>Fuji FP-100c Negative 5 ++</p>
       </td>
     </tr>
     <tr>
       <td>
         <p><img src='previews/fuji-fp-100c-negative-6-++-alt.svg'></p>
-        <p style='text-align: center;'>Fuji FP-100c Negative 6 ++ Alt</p>
+        <p>Fuji FP-100c Negative 6 ++ Alt</p>
       </td>
       <td>
         <p><img src='previews/polaroid-690-cold-5-++.svg'></p>
-        <p style='text-align: center;'>Polaroid 690 Cold 5 ++</p>
+        <p>Polaroid 690 Cold 5 ++</p>
       </td>
       <td>
         <p><img src='previews/polaroid-time-zero-%28expired%29-1----.svg'></p>
-        <p style='text-align: center;'>Polaroid Time Zero (Expired) 1 ---</p>
+        <p>Polaroid Time Zero (Expired) 1 ---</p>
       </td>
     </tr>
     <tr>
       <td>
         <p><img src='previews/polaroid-690-4-+.svg'></p>
-        <p style='text-align: center;'>Polaroid 690 4 +</p>
+        <p>Polaroid 690 4 +</p>
       </td>
       <td>
         <p><img src='previews/polaroid-px-680-cold-1---.svg'></p>
-        <p style='text-align: center;'>Polaroid PX-680 Cold 1 --</p>
+        <p>Polaroid PX-680 Cold 1 --</p>
       </td>
       <td>
         <p><img src='previews/kodak-elite-chrome-400.svg'></p>
-        <p style='text-align: center;'>Kodak Elite Chrome 400</p>
+        <p>Kodak Elite Chrome 400</p>
       </td>
     </tr>
     <tr>
       <td>
         <p><img src='previews/kodak-elite-color-400.svg'></p>
-        <p style='text-align: center;'>Kodak Elite Color 400</p>
+        <p>Kodak Elite Color 400</p>
       </td>
       <td>
         <p><img src='previews/kodak-elite-color-200.svg'></p>
-        <p style='text-align: center;'>Kodak Elite Color 200</p>
+        <p>Kodak Elite Color 200</p>
       </td>
       <td>
         <p><img src='previews/kodak-e-100-gx-ektachrome-100.svg'></p>
-        <p style='text-align: center;'>Kodak E-100 GX Ektachrome 100</p>
+        <p>Kodak E-100 GX Ektachrome 100</p>
       </td>
     </tr>
     <tr>
       <td>
         <p><img src='previews/kodak-elite-100-xpro.svg'></p>
-        <p style='text-align: center;'>Kodak Elite 100 XPRO</p>
+        <p>Kodak Elite 100 XPRO</p>
       </td>
       <td>
         <p><img src='previews/kodak-kodachrome-64.svg'></p>
-        <p style='text-align: center;'>Kodak Kodachrome 64</p>
+        <p>Kodak Kodachrome 64</p>
       </td>
       <td>
         <p><img src='previews/kodak-ektachrome-100-vs.svg'></p>
-        <p style='text-align: center;'>Kodak Ektachrome 100 VS</p>
+        <p>Kodak Ektachrome 100 VS</p>
       </td>
     </tr>
     <tr>
       <td>
         <p><img src='previews/classic.svg'></p>
-        <p style='text-align: center;'>Classic</p>
+        <p>Classic</p>
       </td>
       <td>
         <p><img src='previews/pro.svg'></p>
-        <p style='text-align: center;'>Pro</p>
+        <p>Pro</p>
       </td>
       <td>
         <p><img src='previews/pro-machine.svg'></p>
-        <p style='text-align: center;'>Pro Machine</p>
+        <p>Pro Machine</p>
       </td>
     </tr>
     <tr>
       <td>
         <p><img src='previews/pro-octagon.svg'></p>
-        <p style='text-align: center;'>Pro Octagon</p>
+        <p>Pro Octagon</p>
       </td>
       <td>
         <p><img src='previews/pro-ristretto.svg'></p>
-        <p style='text-align: center;'>Pro Ristretto</p>
+        <p>Pro Ristretto</p>
       </td>
       <td>
         <p><img src='previews/pro-spectrum.svg'></p>
-        <p style='text-align: center;'>Pro Spectrum</p>
+        <p>Pro Spectrum</p>
       </td>
     </tr>
   </tbody>

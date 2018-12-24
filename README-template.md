@@ -24,7 +24,7 @@ A scheme switching menu is available in theme settings, also you can search for 
       {% for theme in group %}
       <td>
         <p><img src='previews/{{ theme.slug }}.svg'></p>
-        <p style='text-align: center;'>{{ theme.name }}</p>
+        <p>{{ theme.name }}</p>
       </td>
       {% endfor %}
     </tr>
