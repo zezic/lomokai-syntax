@@ -1,4 +1,4 @@
-![Lomokai Syntax Theme](logo.svg)
+![Lomokai Syntax Theme](https://raw.githubusercontent.com/zezic/lomokai-syntax/master/logo.svg)
 
 # Lomokai Syntax Theme
 
@@ -17,4 +17,4 @@ A scheme switching menu is available in theme settings, also you can search for 
 
 ## Color Schemes Preview
 
-![Lomokai Schemes Preview](preview.svg)
+![Lomokai Schemes Preview](https://raw.githubusercontent.com/zezic/lomokai-syntax/master/preview.svg)
