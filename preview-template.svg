@@ -1,34 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <svg
-  width="272"
-  height="272"
-  viewBox="0 0 272 272"
+  width="898"
+  height="{{ groups|length * (272 + 80) }}"
+  viewBox="0 0 898 {{ groups|length * (272 + 80) }}"
   version="1.1"
   xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rect
-    y="0"
-    x="0"
-    height="272"
-    width="272"
-    style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;"
-  />
-  <circle
-    style="opacity: 1; fill: {{ colors[0].hex }}; fill-opacity: 1; stroke: #ffffff; stroke-opacity: 0; stroke-width: 1.5px;"
-    cx="136"
-    cy="136"
-    r="100" />
-  {% for color in colors %}
-    {% if loop.index > 1 %}
-      <g transform='rotate({{ color.hsv[0] * 360 - 90 }} 136 136)'>
-        <circle
-          transform='translate({{ color.hsv[1] * 80 }} 0)'
-          style="opacity: 1; fill: {{ color.hex }}; fill-opacity: 1; stroke: none;"
-          cx="136"
-          cy="136"
-          r="12" />
-      </g>
-    {% endif %}
+  <style>
+    .title {
+      font-family: Arial, Helvetica, sans;
+      fill: #808080;
+      text-align: center;
+    }
+  </style>
+  {% for group in groups %}
+    <g transform='translate(0 {{ loop.index0 * (272 + 80) }})'>
+      {% for theme in group %}
+        <g transform='translate({{ loop.index0 * (272 + 40) }} 0)'>
+          <rect
+            y="0"
+            x="0"
+            height="272"
+            width="272"
+            style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;"
+          />
+          <circle
+            style="opacity: 1; fill: {{ theme.colors[0].hex }}; fill-opacity: 1; stroke: #ffffff; stroke-opacity: 0; stroke-width: 1.5px;"
+            cx="136"
+            cy="136"
+            r="100" />
+          {% for color in theme.colors %}
+            {% if loop.index > 1 %}
+              <g transform='rotate({{ color.hsv[0] * 360 - 90 }} 136 136)'>
+                <circle
+                  transform='translate({{ color.hsv[1] * 80 }} 0)'
+                  style="opacity: 1; fill: {{ color.hex }}; fill-opacity: 1; stroke: none;"
+                  cx="136"
+                  cy="136"
+                  r="12" />
+              </g>
+            {% endif %}
+          {% endfor %}
+          <text x='136' y='298' dominant-baseline="middle" text-anchor="middle" class='title'>{{ theme.name }}</text>
+        </g>
+      {% endfor %}
+    </g>
   {% endfor %}
 </svg>

@@ -17,10 +17,9 @@ env = jinja2.Environment(
     lstrip_blocks=True
 )
 TEMPLATE_FILE = 'preview-template.svg'
-template = env.get_template(TEMPLATE_FILE)
 
 
-def generate_preview(theme_name):
+def prepare_theme_data(theme_name):
     normalized = theme_name.replace(' ', '-').lower()
     less_colors = []
     with open(os.path.join(SCHEMES_DIR, f'{normalized}.less'), 'r') as fp:
@@ -34,9 +33,17 @@ def generate_preview(theme_name):
         )))
     } for color in less_colors]
 
-    with open(os.path.join(PREVIEWS_DIR, f'{normalized}.svg'), 'w') as fp:
-        fp.write(template.render(colors=colors))
-    return normalized
+    return {
+        'name': theme_name,
+        'slug': normalized,
+        'colors': colors
+    }
+
+
+def render_preview(groups):
+    template = env.get_template(TEMPLATE_FILE)
+    with open('preview.svg', 'w') as fp:
+        fp.write(template.render(groups=groups))
 
 
 if __name__ == '__main__':
@@ -48,13 +55,9 @@ if __name__ == '__main__':
 
     themes = []
     for theme_name in theme_names:
-        normalized = generate_preview(theme_name)
-        themes.append({
-            'name': theme_name,
-            'slug': normalized.replace('(', '%28').replace(')', '%29')
-        })
+        data = prepare_theme_data(theme_name)
+        themes.append(data)
 
-    themes = zip(*(iter(themes),) * 3)
-    readme_template = env.get_template(README_TEMPLATE)
-    with open('README.md', 'w') as fp:
-        fp.write(readme_template.render(themes=themes))
+    groups = list(zip(*(iter(themes),) * 3)) 
+
+    render_preview(groups)
