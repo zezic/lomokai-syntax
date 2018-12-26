@@ -1,12 +1,23 @@
 .syntax--python {
     .syntax--meta {
         &.syntax--function-call {
-
             .syntax--arguments {
-
                 &.syntax--punctuation {
                     color: @syntax-punctuation-color;
                 }
+            }
+        }
+        &.syntax--interpolation {
+            & > .syntax--interpolation {
+                &.syntax--curly {
+                    &.syntax--begin,
+                    &.syntax--end {
+                        color: @purple;
+                    }
+                }
+            }
+            & > .syntax--embedded {
+                color: @syntax-text-color;
             }
         }
     }
@@ -53,4 +64,14 @@
             font-style: italic;
         }
     }
+
+    .syntax--string {
+        & > .syntax--punctuation {
+            &.syntax--begin,
+            &.syntax--end {
+                color: inherit;
+            }
+        }
+    }
+
 }
