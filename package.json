@@ -1,7 +1,7 @@
 {
   "name": "lomokai-syntax",
   "theme": "syntax",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "A Monokai-based syntax theme with lomographic variations.",
   "keywords": [
     "syntax",
