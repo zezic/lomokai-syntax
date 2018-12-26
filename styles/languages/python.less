@@ -20,6 +20,23 @@
                 color: @syntax-text-color;
             }
         }
+        &.syntax--class {
+            & > .syntax--entity.syntax--name.syntax--type {
+                color: @green;
+            }
+
+            & > .syntax--punctuation {
+                &.syntax--begin,
+                &.syntax--end {
+                    color: @syntax-punctuation-color;
+                }
+            }
+            & > .syntax--inheritance {
+                & > .syntax--inherited-class {
+                    color: @cyan;
+                }
+            }
+        }
     }
 
     .syntax--variable {
@@ -65,7 +82,7 @@
         }
     }
 
-    .syntax--string {
+    .syntax--string.syntax--format {
         & > .syntax--punctuation {
             &.syntax--begin,
             &.syntax--end {
@@ -73,5 +90,6 @@
             }
         }
     }
+
 
 }
