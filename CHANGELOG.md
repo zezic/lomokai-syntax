@@ -1,3 +1,6 @@
+## 0.3.3
+* Fixed highlighting of punctuation in Python
+
 ## 0.3.2
 * Fixed highlighting of class name and inheritance in Python
 

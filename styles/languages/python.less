@@ -21,6 +21,8 @@
             }
         }
         &.syntax--class {
+            color: unset;
+
             & > .syntax--entity.syntax--name.syntax--type {
                 color: @green;
             }
@@ -34,6 +36,9 @@
             & > .syntax--inheritance {
                 & > .syntax--inherited-class {
                     color: @cyan;
+                }
+                & > .syntax--punctuation {
+                    color: @syntax-punctuation-color;
                 }
             }
         }
@@ -72,6 +77,9 @@
             &.syntax--list {
                 color: @syntax-punctuation-color;
             }
+        }
+        &.syntax--period {
+            color: @syntax-punctuation-color;
         }
     }
 
